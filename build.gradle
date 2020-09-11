@@ -53,3 +53,6 @@ compileTestKotlin {
 test {
     systemProperty "java.util.logging.manager", "org.jboss.logmanager.LogManager"
 }
+
+task stage(dependsOn: ['build', 'clean'])
+build.mustRunAfter clean
