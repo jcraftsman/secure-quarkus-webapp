@@ -1,0 +1,1 @@
+web: java -jar build/secure-quarkus-webapp-my-version-runner.jar
